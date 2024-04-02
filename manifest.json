@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Twitter Crypto Trends",
+    "description": "Hide Crypto-related Trends on Twitter",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*"],
+            "js": ["hide-crypto-trends.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["listen-for-navigation.js"]
+    },
+    "permissions": ["webNavigation"],
+    "icons": {
+        "96": "icons/logo.png"
+    }
+}
