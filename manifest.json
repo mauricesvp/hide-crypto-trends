@@ -15,5 +15,10 @@
     "permissions": ["webNavigation"],
     "icons": {
         "96": "icons/logo.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{1884f495-3dd0-471e-8c56-55b3440777e0}"
+        }
     }
 }
